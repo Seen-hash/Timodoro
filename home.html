@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <title>Timodoro - Simple Pomodoro Timer</title>
+    <head>
+
+        <meta content="width=device-width, initial-scale=1.0"/>
+
+        <link rel="stylesheet" href="looks.css" />
+        <audio id="dingSound" src="ding.mp3" preload="auto"></audio>
+    </head>
+    <body>
+        <button id="dark">Darkness on/off</button>
+        <main class="box">
+            <h2>Timodoro - Simple Pomodoro Timer</h2>
+            <div class="circle">
+                <svg height="200" width="200">
+                    <circle cy="100" cx="100" r="90" fill="none" stroke="#c42d2d" stroke-width="10"/>
+
+                    <circle id="progress-ring" cx="100" cy="100" r="90" stroke="#39bbe6" stroke-width="10" fill="none" stroke-dasharray="565.48" stroke-dashoffset="0"/>
+
+                </svg>
+                <div id="clockThing" class="clockLetters">25:00</div>
+            </div>
+            <div class="controls">
+                <button id="go">Go!</button>
+                <button id="stop">Stop!</button>
+                <button id="again">Again!</button>
+            </div>
+            <div id="current" class="currentTag">Time to work</div>
+            <div id="change" class="hide">Upcoming..</div>
+            <div class="sets">
+                <label>Work time: <input  id="worktime" type="number" value="25" min="1" /> mins</label>
+                <label>Rest time: <input  id="resttime" type="number" value="5" min="1" /> mins</label>
+                <button id="apply">Apply</button>
+            </div>
+        </main>
+        <div id="cred">Made with <3 by Seen-hash</div>
+        <script src="feels.js"></script>
+    </body>
+</html>
