@@ -28,7 +28,7 @@ An open-source, simple, and customizable **Pomodoro timer** built with **HTML, C
 ## Instructions-ing:
 
 1. Clone/download this repository *(ensure all files are in one directory on the same level)*  
-2. Double or open `home.html` in your browser  
+2. Double-click or open `home.html` in your browser  
 3. Press `Go!` to begin your work session   
 4. Customize durations using the input fields below the timer  
 5. Use the `Darkness on/off` to switch themes
